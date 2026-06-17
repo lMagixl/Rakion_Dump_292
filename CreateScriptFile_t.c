@@ -1,0 +1,120 @@
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+/* public: void __thiscall CEditModel::CreateScriptFile_t(class CTFileName &) */
+
+void __thiscall CEditModel::CreateScriptFile_t(CEditModel *this,CTFileName *param_1)
+
+{
+  CTString *pCVar1;
+  undefined4 *puVar2;
+  char *local_1c0 [2];
+  char *local_1b8;
+  char *local_1b0;
+  char *local_1ac;
+  undefined4 local_1a8;
+  char *local_1a4;
+  char *local_1a0;
+  char *local_198;
+  CTFileStream local_194 [116];
+  char *local_120;
+  char *local_118;
+  char local_110 [256];
+  undefined4 local_10;
+  void *local_c;
+  undefined1 *puStack_8;
+  undefined4 local_4;
+  
+                    /* 0xa82e0  1431  ?CreateScriptFile_t@CEditModel@@QAEXAAVCTFileName@@@Z */
+  local_4 = 0xffffffff;
+  puStack_8 = &LAB_36213490;
+  local_c = ExceptionList;
+  local_10 = DAT_362abd90;
+  ExceptionList = &local_c;
+  local_1b0 = StringDuplicate(&DAT_36230cd8);
+  local_4 = 0;
+  CTFileName::FileName(param_1);
+  local_4._0_1_ = 1;
+  pCVar1 = (CTString *)CTFileName::FileDir(param_1);
+  local_4._0_1_ = 2;
+  pCVar1 = (CTString *)CTString::operator+(pCVar1,(CTString *)&local_1a4);
+  local_4._0_1_ = 3;
+  puVar2 = (undefined4 *)CTString::operator+(pCVar1,(CTString *)&local_198);
+  local_4._0_1_ = 4;
+  local_1ac = StringDuplicate((char *)*puVar2);
+  local_1a8 = 0;
+  local_4._0_1_ = 10;
+  StringFree(local_198);
+  local_4._0_1_ = 9;
+  StringFree(local_1a4);
+  local_4._0_1_ = 8;
+  StringFree(local_120);
+  local_4._0_1_ = 7;
+  StringFree(local_118);
+  local_4._0_1_ = 6;
+  StringFree(local_1b0);
+  CTFileStream::CTFileStream(local_194);
+  local_4._0_1_ = 0xb;
+  CTFileStream::Create_t(local_194,(CTFileName *)&local_1ac,1);
+  CTStream::PutLine_t((CTStream *)local_194,s__________Creation_settings_36230ce0);
+  CTStream::PutLine_t((CTStream *)local_194,s_TEXTURE_DIM_2_0_2_0_36230cfc);
+  CTStream::PutLine_t((CTStream *)local_194,s_SIZE_1_0_36230d10);
+  CTStream::PutLine_t((CTStream *)local_194,s_MAX_SHADOW_0_36230d1c);
+  CTStream::PutLine_t((CTStream *)local_194,s_HI_QUALITY_YES_36230d2c);
+  CTStream::PutLine_t((CTStream *)local_194,s_FLAT_NO_36230d3c);
+  CTStream::PutLine_t((CTStream *)local_194,s_HALF_FLAT_NO_36230d44);
+  CTStream::PutLine_t((CTStream *)local_194,s_STRETCH_DETAIL_NO_36230d54);
+  CTStream::PutLine_t((CTStream *)local_194,&DAT_36230d66);
+  CTStream::PutLine_t((CTStream *)local_194,s__________Mip_models_36230d68);
+  puVar2 = (undefined4 *)CTFileName::FileDir(param_1);
+  sprintf(local_110,s_DIRECTORY__s_36230d7c,*puVar2);
+  StringFree(local_1c0[0]);
+  CTStream::PutLine_t((CTStream *)local_194,local_110);
+  CTStream::PutLine_t((CTStream *)local_194,s_MIP_MODELS_1_36230d8c);
+  CTFileName::FileExt(param_1);
+  local_4._0_1_ = 0xc;
+  pCVar1 = (CTString *)CTFileName::FileName(param_1);
+  local_4._0_1_ = 0xd;
+  puVar2 = (undefined4 *)CTString::operator+(pCVar1,(CTString *)local_1c0);
+  sprintf(local_110,s__s_36230d9c,*puVar2);
+  StringFree(local_1c0[0]);
+  local_4._0_1_ = 0xc;
+  StringFree(local_1a0);
+  local_4._0_1_ = 0xb;
+  StringFree(local_1b8);
+  CTStream::PutLine_t((CTStream *)local_194,local_110);
+  CTStream::PutLine_t((CTStream *)local_194,&DAT_36230da3);
+  CTStream::PutLine_t((CTStream *)local_194,s_ANIM_START_36230da4);
+  CTStream::PutLine_t((CTStream *)local_194,s__________Start_of_animation_bloc_36230db0);
+  CTStream::PutLine_t((CTStream *)local_194,&DAT_36230dd2);
+  puVar2 = (undefined4 *)CTFileName::FileDir(param_1);
+  sprintf(local_110,s_DIRECTORY__s_36230dd4,*puVar2);
+  StringFree(local_1b8);
+  CTStream::PutLine_t((CTStream *)local_194,local_110);
+  CTStream::PutLine_t((CTStream *)local_194,s_ANIMATION_Default_36230de4);
+  CTStream::PutLine_t((CTStream *)local_194,s_SPEED_0_1_36230df8);
+  CTFileName::FileExt(param_1);
+  local_4._0_1_ = 0xe;
+  pCVar1 = (CTString *)CTFileName::FileName(param_1);
+  local_4._0_1_ = 0xf;
+  puVar2 = (undefined4 *)CTString::operator+(pCVar1,(CTString *)local_1c0);
+  sprintf(local_110,s__s_36230e04,*puVar2);
+  StringFree(local_1c0[0]);
+  local_4._0_1_ = 0xe;
+  StringFree(local_1b8);
+  local_4._0_1_ = 0xb;
+  StringFree(local_1a0);
+  CTStream::PutLine_t((CTStream *)local_194,local_110);
+  CTStream::PutLine_t((CTStream *)local_194,&DAT_36230e0b);
+  CTStream::PutLine_t((CTStream *)local_194,s__________End_of_animation_block_36230e0c);
+  CTStream::PutLine_t((CTStream *)local_194,s_ANIM_END_36230e2c);
+  CTStream::PutLine_t((CTStream *)local_194,&DAT_36230e35);
+  CTStream::PutLine_t((CTStream *)local_194,&DAT_36230e38);
+  CTFileStream::Close(local_194);
+  local_4 = CONCAT31(local_4._1_3_,6);
+  CTFileStream::~CTFileStream(local_194);
+  local_4 = 0xffffffff;
+  StringFree(local_1ac);
+  ExceptionList = local_c;
+  return;
+}
+

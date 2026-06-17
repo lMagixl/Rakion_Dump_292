@@ -1,0 +1,110 @@
+
+void __fastcall FUN_36142ca0(int param_1)
+
+{
+  void *this;
+  int iVar1;
+  int *piVar2;
+  int iVar3;
+  undefined4 local_c0;
+  undefined4 local_bc;
+  undefined4 local_b8;
+  undefined4 local_b4;
+  undefined4 local_b0;
+  undefined4 local_ac;
+  undefined4 local_a8;
+  undefined4 uStack_a4;
+  undefined4 local_a0;
+  undefined4 local_9c;
+  undefined4 local_98;
+  undefined4 local_94;
+  undefined4 local_90;
+  undefined4 local_8c;
+  undefined4 local_88;
+  undefined4 local_84;
+  undefined4 local_80;
+  undefined4 local_7c;
+  undefined4 local_78;
+  undefined4 local_74;
+  undefined4 local_70;
+  undefined4 uStack_6c;
+  undefined4 local_68;
+  undefined4 local_64;
+  undefined4 local_60;
+  undefined4 local_5c;
+  undefined4 local_58;
+  undefined4 uStack_54;
+  undefined4 local_50;
+  undefined4 local_4c;
+  double local_48 [3];
+  double local_30 [3];
+  void *local_14;
+  undefined1 *puStack_10;
+  undefined4 local_c;
+  
+  local_c = 0xffffffff;
+  puStack_10 = &LAB_362199c5;
+  local_14 = ExceptionList;
+  this = (void *)(param_1 + 0x20);
+  ExceptionList = &local_14;
+  FUN_361438e0((int)this);
+  FUN_36141ea0(param_1,&DAT_36238b48);
+  iVar3 = 0;
+  local_c = 0;
+  iVar1 = FUN_361438e0((int)this);
+  if (0 < iVar1) {
+    do {
+      piVar2 = (int *)FUN_361438a0(this,iVar3);
+      iVar1 = *piVar2;
+      local_78 = *(undefined4 *)(iVar1 + 0x20);
+      local_74 = *(undefined4 *)(iVar1 + 0x24);
+      local_70 = *(undefined4 *)(iVar1 + 0x28);
+      uStack_6c = *(undefined4 *)(iVar1 + 0x2c);
+      local_68 = *(undefined4 *)(iVar1 + 0x30);
+      local_64 = *(undefined4 *)(iVar1 + 0x34);
+      piVar2 = (int *)FUN_361438a0(this,iVar3);
+      iVar1 = *piVar2;
+      local_a8 = *(undefined4 *)(iVar1 + 0x20);
+      uStack_a4 = *(undefined4 *)(iVar1 + 0x24);
+      local_a0 = *(undefined4 *)(iVar1 + 0x28);
+      local_9c = *(undefined4 *)(iVar1 + 0x2c);
+      local_98 = *(undefined4 *)(iVar1 + 0x30);
+      local_94 = *(undefined4 *)(iVar1 + 0x34);
+      FUN_36141ea0(param_1,s___f___f___>_36238b4c);
+      iVar1 = FUN_361438a0(this,iVar3);
+      iVar1 = *(int *)(iVar1 + 4);
+      local_60 = *(undefined4 *)(iVar1 + 0x20);
+      local_5c = *(undefined4 *)(iVar1 + 0x24);
+      local_58 = *(undefined4 *)(iVar1 + 0x28);
+      uStack_54 = *(undefined4 *)(iVar1 + 0x2c);
+      local_50 = *(undefined4 *)(iVar1 + 0x30);
+      local_4c = *(undefined4 *)(iVar1 + 0x34);
+      FUN_361438a0(this,iVar3);
+      FUN_36141ea0(param_1,s___f___f__36238b58);
+      iVar1 = FUN_361438a0(this,iVar3);
+      iVar1 = *(int *)(iVar1 + 4);
+      local_c0 = *(undefined4 *)(iVar1 + 0x20);
+      local_bc = *(undefined4 *)(iVar1 + 0x24);
+      local_b8 = *(undefined4 *)(iVar1 + 0x28);
+      local_b4 = *(undefined4 *)(iVar1 + 0x2c);
+      local_b0 = *(undefined4 *)(iVar1 + 0x30);
+      local_ac = *(undefined4 *)(iVar1 + 0x34);
+      piVar2 = (int *)FUN_361438a0(this,iVar3);
+      iVar1 = *piVar2;
+      local_90 = *(undefined4 *)(iVar1 + 0x20);
+      local_8c = *(undefined4 *)(iVar1 + 0x24);
+      local_88 = *(undefined4 *)(iVar1 + 0x28);
+      local_84 = *(undefined4 *)(iVar1 + 0x2c);
+      local_80 = *(undefined4 *)(iVar1 + 0x30);
+      local_7c = *(undefined4 *)(iVar1 + 0x34);
+      FUN_361429e0((double *)&local_90,(double *)&local_c0,local_48,local_30);
+      FUN_36141ea0(param_1,s____f___f___36238b64);
+      FUN_36141ea0(param_1,s___f___f___36238b70);
+      iVar3 = iVar3 + 1;
+      iVar1 = FUN_361438e0((int)this);
+    } while (iVar3 < iVar1);
+  }
+  ExceptionList = local_14;
+  return;
+}
+

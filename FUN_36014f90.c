@@ -1,0 +1,115 @@
+
+void __fastcall FUN_36014f90(undefined4 *param_1)
+
+{
+  xEncryptMemory *pxVar1;
+  int iVar2;
+  undefined4 *puVar3;
+  uint uVar4;
+  undefined1 *puVar5;
+  uint uVar6;
+  undefined1 local_8 [4];
+  undefined4 local_4;
+  
+  *param_1 = 0;
+  param_1[1] = 0;
+  param_1[2] = 0;
+  param_1[3] = 0;
+  param_1[4] = 0;
+  param_1[5] = 0;
+  param_1[6] = 0;
+  uVar6 = 1;
+  puVar5 = local_8;
+  *(undefined1 *)(param_1 + 7) = 0;
+  uVar4 = param_1[9];
+  local_8[0] = 0;
+  pxVar1 = Xenesis2::Foundation::Memory::theEncryptMemory();
+  FUN_3600ce60(pxVar1,uVar4,(int)puVar5,uVar6);
+  uVar6 = 1;
+  puVar3 = &local_4;
+  *(undefined1 *)(param_1 + 0xb) = 0;
+  *(undefined1 *)((int)param_1 + 0x2d) = 0;
+  param_1[0xc] = 0;
+  *(undefined2 *)(param_1 + 0xd) = 0;
+  uVar4 = param_1[0xf];
+  local_4 = 0;
+  pxVar1 = Xenesis2::Foundation::Memory::theEncryptMemory();
+  FUN_3600ce60(pxVar1,uVar4,(int)puVar3,uVar6);
+  uVar4 = param_1[0x12];
+  uVar6 = 1;
+  puVar3 = &local_4;
+  local_4 = 0;
+  pxVar1 = Xenesis2::Foundation::Memory::theEncryptMemory();
+  FUN_3600ce60(pxVar1,uVar4,(int)puVar3,uVar6);
+  uVar4 = param_1[0x15];
+  uVar6 = 1;
+  puVar3 = &local_4;
+  local_4 = 0;
+  pxVar1 = Xenesis2::Foundation::Memory::theEncryptMemory();
+  FUN_3600ce60(pxVar1,uVar4,(int)puVar3,uVar6);
+  uVar4 = param_1[0x18];
+  uVar6 = 1;
+  puVar3 = &local_4;
+  local_4 = 0;
+  pxVar1 = Xenesis2::Foundation::Memory::theEncryptMemory();
+  FUN_3600ce60(pxVar1,uVar4,(int)puVar3,uVar6);
+  uVar4 = param_1[0x1b];
+  uVar6 = 1;
+  puVar3 = &local_4;
+  local_4 = 0;
+  pxVar1 = Xenesis2::Foundation::Memory::theEncryptMemory();
+  FUN_3600ce60(pxVar1,uVar4,(int)puVar3,uVar6);
+  uVar4 = param_1[0x1e];
+  uVar6 = 1;
+  puVar3 = &local_4;
+  local_4 = 0;
+  pxVar1 = Xenesis2::Foundation::Memory::theEncryptMemory();
+  FUN_3600ce60(pxVar1,uVar4,(int)puVar3,uVar6);
+  uVar4 = param_1[0x21];
+  uVar6 = 1;
+  puVar3 = &local_4;
+  local_4 = 0;
+  pxVar1 = Xenesis2::Foundation::Memory::theEncryptMemory();
+  FUN_3600ce60(pxVar1,uVar4,(int)puVar3,uVar6);
+  uVar4 = param_1[0x24];
+  uVar6 = 1;
+  puVar3 = &local_4;
+  local_4 = 0;
+  pxVar1 = Xenesis2::Foundation::Memory::theEncryptMemory();
+  FUN_3600ce60(pxVar1,uVar4,(int)puVar3,uVar6);
+  uVar4 = param_1[0x27];
+  uVar6 = 1;
+  puVar3 = &local_4;
+  local_4 = 0;
+  pxVar1 = Xenesis2::Foundation::Memory::theEncryptMemory();
+  FUN_3600ce60(pxVar1,uVar4,(int)puVar3,uVar6);
+  uVar4 = param_1[0x2a];
+  uVar6 = 1;
+  puVar3 = &local_4;
+  local_4 = 0;
+  pxVar1 = Xenesis2::Foundation::Memory::theEncryptMemory();
+  FUN_3600ce60(pxVar1,uVar4,(int)puVar3,uVar6);
+  uVar6 = 1;
+  puVar5 = local_8;
+  *(undefined1 *)(param_1 + 0x2c) = 0;
+  param_1[0x2d] = 0;
+  param_1[0x2e] = 0;
+  uVar4 = param_1[0x107];
+  local_8[0] = 3;
+  pxVar1 = Xenesis2::Foundation::Memory::theEncryptMemory();
+  FUN_3600ce60(pxVar1,uVar4,(int)puVar5,uVar6);
+  puVar3 = param_1 + 0x2f;
+  iVar2 = 0x13;
+  do {
+    FUN_36014f20((undefined2 *)puVar3);
+    puVar3 = puVar3 + 10;
+    iVar2 = iVar2 + -1;
+  } while (iVar2 != 0);
+  puVar3 = param_1 + 0xed;
+  for (iVar2 = 0x19; iVar2 != 0; iVar2 = iVar2 + -1) {
+    *puVar3 = 0;
+    puVar3 = puVar3 + 1;
+  }
+  return;
+}
+

@@ -1,0 +1,20 @@
+
+/* public: class CEntity * __thiscall CWorld::CreateNpc_t(class CPlacement3D const &,class
+   CTFileName const &,unsigned long,int) */
+
+CEntity * __thiscall
+CWorld::CreateNpc_t(CWorld *this,CPlacement3D *param_1,CTFileName *param_2,ulong param_3,int param_4
+                   )
+
+{
+  CEntityClass *pCVar1;
+  CEntity *pCVar2;
+  
+                    /* 0xca8a0  1427
+                       ?CreateNpc_t@CWorld@@QAEPAVCEntity@@ABVCPlacement3D@@ABVCTFileName@@KH@Z */
+  pCVar1 = CStock_CEntityClass::Obtain_t(_pEntityClassStock,param_2);
+  pCVar2 = CreateNpc(this,param_1,pCVar1,param_3,param_4);
+  CStock_CEntityClass::Release(_pEntityClassStock,pCVar1);
+  return pCVar2;
+}
+

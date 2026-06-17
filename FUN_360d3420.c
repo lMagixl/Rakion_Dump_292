@@ -1,0 +1,17 @@
+
+void __fastcall FUN_360d3420(int *param_1)
+
+{
+  if (param_1[2] != 0) {
+    operator_delete__((void *)param_1[3]);
+    param_1[2] = 0;
+    param_1[3] = 0;
+  }
+  if (*param_1 != 0) {
+    operator_delete__((void *)param_1[1]);
+    *param_1 = 0;
+    param_1[1] = 0;
+  }
+  return;
+}
+

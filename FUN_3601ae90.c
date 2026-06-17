@@ -1,0 +1,126 @@
+
+undefined4 * __fastcall FUN_3601ae90(undefined4 *param_1)
+
+{
+  xEncryptMemory *pxVar1;
+  uint uVar2;
+  undefined4 *puVar3;
+  undefined1 *puVar4;
+  int iVar5;
+  uint uVar6;
+  undefined1 local_18 [4];
+  undefined4 local_14;
+  undefined4 *local_10;
+  void *local_c;
+  undefined1 *puStack_8;
+  undefined4 local_4;
+  
+  local_4 = 0xffffffff;
+  puStack_8 = &LAB_3620e625;
+  local_c = ExceptionList;
+  iVar5 = 1;
+  ExceptionList = &local_c;
+  param_1[8] = &PTR_FUN_362239c8;
+  local_10 = param_1;
+  pxVar1 = Xenesis2::Foundation::Memory::theEncryptMemory();
+  uVar2 = FUN_36019460(pxVar1,iVar5);
+  uVar6 = 1;
+  puVar4 = local_18;
+  param_1[9] = uVar2;
+  local_18[0] = 0;
+  pxVar1 = Xenesis2::Foundation::Memory::theEncryptMemory();
+  FUN_3600ce60(pxVar1,uVar2,(int)puVar4,uVar6);
+  local_4 = 0;
+  _eh_vector_constructor_iterator_
+            (param_1 + 0xe,0xc,4,(_func_void_void_ptr *)&LAB_3601a310,
+             (_func_void_void_ptr *)&LAB_360187c0);
+  iVar5 = 1;
+  local_4._0_1_ = 1;
+  param_1[0x1a] = &PTR_FUN_362239d0;
+  pxVar1 = Xenesis2::Foundation::Memory::theEncryptMemory();
+  uVar2 = FUN_36019460(pxVar1,iVar5);
+  uVar6 = 1;
+  puVar3 = &local_14;
+  param_1[0x1b] = uVar2;
+  local_14 = 0;
+  pxVar1 = Xenesis2::Foundation::Memory::theEncryptMemory();
+  FUN_3600ce60(pxVar1,uVar2,(int)puVar3,uVar6);
+  iVar5 = 1;
+  local_4._0_1_ = 2;
+  param_1[0x1d] = &PTR_FUN_362239d0;
+  pxVar1 = Xenesis2::Foundation::Memory::theEncryptMemory();
+  uVar2 = FUN_36019460(pxVar1,iVar5);
+  uVar6 = 1;
+  puVar3 = &local_14;
+  param_1[0x1e] = uVar2;
+  local_14 = 0;
+  pxVar1 = Xenesis2::Foundation::Memory::theEncryptMemory();
+  FUN_3600ce60(pxVar1,uVar2,(int)puVar3,uVar6);
+  iVar5 = 1;
+  local_4._0_1_ = 3;
+  param_1[0x20] = &PTR_FUN_362239d0;
+  pxVar1 = Xenesis2::Foundation::Memory::theEncryptMemory();
+  uVar2 = FUN_36019460(pxVar1,iVar5);
+  uVar6 = 1;
+  puVar3 = &local_14;
+  param_1[0x21] = uVar2;
+  local_14 = 0;
+  pxVar1 = Xenesis2::Foundation::Memory::theEncryptMemory();
+  FUN_3600ce60(pxVar1,uVar2,(int)puVar3,uVar6);
+  iVar5 = 1;
+  local_4._0_1_ = 4;
+  param_1[0x23] = &PTR_FUN_362239d0;
+  pxVar1 = Xenesis2::Foundation::Memory::theEncryptMemory();
+  uVar2 = FUN_36019460(pxVar1,iVar5);
+  uVar6 = 1;
+  puVar3 = &local_14;
+  param_1[0x24] = uVar2;
+  local_14 = 0;
+  pxVar1 = Xenesis2::Foundation::Memory::theEncryptMemory();
+  FUN_3600ce60(pxVar1,uVar2,(int)puVar3,uVar6);
+  iVar5 = 1;
+  local_4._0_1_ = 5;
+  param_1[0x26] = &PTR_FUN_362239d0;
+  pxVar1 = Xenesis2::Foundation::Memory::theEncryptMemory();
+  uVar2 = FUN_36019460(pxVar1,iVar5);
+  uVar6 = 1;
+  puVar3 = &local_14;
+  param_1[0x27] = uVar2;
+  local_14 = 0;
+  pxVar1 = Xenesis2::Foundation::Memory::theEncryptMemory();
+  FUN_3600ce60(pxVar1,uVar2,(int)puVar3,uVar6);
+  iVar5 = 1;
+  local_4._0_1_ = 6;
+  param_1[0x29] = &PTR_FUN_362239d0;
+  pxVar1 = Xenesis2::Foundation::Memory::theEncryptMemory();
+  uVar2 = FUN_36019460(pxVar1,iVar5);
+  uVar6 = 1;
+  puVar3 = &local_14;
+  param_1[0x2a] = uVar2;
+  local_14 = 0;
+  pxVar1 = Xenesis2::Foundation::Memory::theEncryptMemory();
+  FUN_3600ce60(pxVar1,uVar2,(int)puVar3,uVar6);
+  local_4._0_1_ = 7;
+  _eh_vector_constructor_iterator_(param_1 + 0x2f,0x28,0x13,FUN_3601adb0,FUN_36019530);
+  puVar3 = param_1 + 0xed;
+  for (iVar5 = 0x19; iVar5 != 0; iVar5 = iVar5 + -1) {
+    *puVar3 = 0;
+    puVar3 = puVar3 + 1;
+  }
+  iVar5 = 1;
+  local_4._0_1_ = 8;
+  param_1[0x106] = &PTR_FUN_362239c8;
+  pxVar1 = Xenesis2::Foundation::Memory::theEncryptMemory();
+  uVar2 = FUN_36019460(pxVar1,iVar5);
+  uVar6 = 1;
+  puVar4 = local_18;
+  param_1[0x107] = uVar2;
+  local_18[0] = 0;
+  pxVar1 = Xenesis2::Foundation::Memory::theEncryptMemory();
+  FUN_3600ce60(pxVar1,uVar2,(int)puVar4,uVar6);
+  local_4 = CONCAT31(local_4._1_3_,9);
+  FUN_36014f90(param_1);
+  ExceptionList = local_c;
+  return param_1;
+}
+

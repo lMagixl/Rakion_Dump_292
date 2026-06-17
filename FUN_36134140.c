@@ -1,0 +1,11 @@
+
+undefined4 * __thiscall FUN_36134140(void *this,byte param_1)
+
+{
+  FUN_36134160(this);
+  if ((param_1 & 1) != 0) {
+    operator_delete(this);
+  }
+  return this;
+}
+
